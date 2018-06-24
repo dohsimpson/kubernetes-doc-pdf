@@ -1,0 +1,2 @@
+* Change header h1 -> h2, h2 -> h3, etc. So that I can use h1 for directories and merge all the directories into one pdf
+* It doesn't seem to be possible to wrap code/pre block lines in pandoc.
