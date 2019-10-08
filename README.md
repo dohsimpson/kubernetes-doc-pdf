@@ -26,4 +26,6 @@ For a more detailed index, see [here](https://kubernetes.io/docs/home/#browsedoc
 
 # Similar Project:
 
-See [Terraform PDF Documentation](https://github.com/dohsimpson/terraform-doc-pdf)
+* EPUB/MOBI version of the documents can be found [here](https://github.com/tha2015/kubernetes-doc-epub)
+
+* [Terraform PDF Documentation](https://github.com/dohsimpson/terraform-doc-pdf)
