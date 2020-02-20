@@ -9,7 +9,7 @@ def generate_directory_pdf(url, name, s=None):
 
     html = ""
     anchors = r1.html.find('.item')
-    links = [a.absolute_links.pop() for a in anchors]
+    links = [a.absolute_links.pop() for a in anchors if a.tag == 'a']
     # dedup
     unique_links = []
     for i in links:
