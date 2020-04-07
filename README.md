@@ -10,6 +10,7 @@ PDF files are grouped in sections:
 * Tasks
 * Tutorials
 * Reference
+* `kubectl` Reference
 
 For a more detailed index, see [here](https://kubernetes.io/docs/home/#browsedocs)
 
