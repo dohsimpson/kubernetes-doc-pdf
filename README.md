@@ -24,6 +24,7 @@ For a more detailed index, see [here](https://kubernetes.io/docs/home/#browsedoc
 1. Install the dependencies. Use `$ pipenv install` for installing python packages.
 2. `$ pipenv shell`
 3. `$ python kubernetes-doc.py`
+4. `$ ./gen_ref_docs.sh`
 
 # Similar Project:
 
