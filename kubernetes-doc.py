@@ -23,7 +23,7 @@ def generate_directory_pdf(url, name, s=None):
     for l1 in links:
         r2 = s.get(l1)
         # r2.html.render()
-        div = r2.html.find('.td-content', first=True)
+        div = r2.html.find('.td-content', first=True, clean=True)
         if div:
             # try:
                 # if name in ["Setup", "Tutorials", "Reference"]:  # will give duplicate id error, go through pages one by one to skip error page
