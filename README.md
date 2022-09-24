@@ -26,6 +26,9 @@ For a more detailed index, see [here](https://kubernetes.io/docs/home/#browsedoc
 3. `$ python kubernetes-doc.py`
 4. `$ ./gen_ref_docs.sh`
 
+# Troubleshooting
+* If weasyprint is stuck when generating pages, check if you run out of memory, generating the larger PDFs (e.g. Reference.pdf) is quite memory heavy.
+
 # Similar Project:
 
 * EPUB/MOBI version of the documents can be found [here](https://github.com/tha2015/kubernetes-doc-epub)
