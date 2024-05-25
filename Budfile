@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# ------------------------------------
+# This is the build script for the project. To use it, install [bud](https://github.com/dohsimpson/bud) command. Otherwise, you can also follow the README manually.
+# ------------------------------------
+
+publish() {
+	set -x
+	git add -A .
+	# ask for the version
+	echo "Enter the version number: "
+	read version
+	echo "v$version is ok? (C-c to cancel)"
+	read
+	git commit -m "v$version"
+	git tag "v$version"
+	git push origin master --tags
+}

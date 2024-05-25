@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 pypandoc = "*"
 requests-html = "*"
+lxml = {extras = ["html_clean"], version = "*"}
 
 [dev-packages]
 
